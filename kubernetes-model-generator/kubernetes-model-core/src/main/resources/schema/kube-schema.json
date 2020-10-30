@@ -2343,8 +2343,8 @@
       "description": "",
       "properties": {
         "defaultMode": {
-          "type": "integer",
-          "description": ""
+          "$ref": "#/definitions/kubernetes_apimachinery_pkg_util_intstr_IntOrString",
+          "javaType": "io.fabric8.kubernetes.api.model.IntOrString"
         },
         "items": {
           "type": "array",
@@ -2752,8 +2752,8 @@
           "javaType": "io.fabric8.kubernetes.api.model.ObjectFieldSelector"
         },
         "mode": {
-          "type": "integer",
-          "description": ""
+          "$ref": "#/definitions/kubernetes_apimachinery_pkg_util_intstr_IntOrString",
+          "javaType": "io.fabric8.kubernetes.api.model.IntOrString"
         },
         "path": {
           "type": "string",
@@ -2775,8 +2775,8 @@
       "description": "",
       "properties": {
         "defaultMode": {
-          "type": "integer",
-          "description": ""
+          "$ref": "#/definitions/kubernetes_apimachinery_pkg_util_intstr_IntOrString",
+          "javaType": "io.fabric8.kubernetes.api.model.IntOrString"
         },
         "items": {
           "type": "array",
@@ -4005,8 +4005,8 @@
           "description": ""
         },
         "mode": {
-          "type": "integer",
-          "description": ""
+          "$ref": "#/definitions/kubernetes_apimachinery_pkg_util_intstr_IntOrString",
+          "javaType": "io.fabric8.kubernetes.api.model.IntOrString"
         },
         "path": {
           "type": "string",
@@ -6414,8 +6414,8 @@
       "description": "",
       "properties": {
         "defaultMode": {
-          "type": "integer",
-          "description": ""
+          "$ref": "#/definitions/kubernetes_apimachinery_pkg_util_intstr_IntOrString",
+          "javaType": "io.fabric8.kubernetes.api.model.IntOrString"
         },
         "sources": {
           "type": "array",
@@ -7303,8 +7303,8 @@
       "description": "",
       "properties": {
         "defaultMode": {
-          "type": "integer",
-          "description": ""
+          "$ref": "#/definitions/kubernetes_apimachinery_pkg_util_intstr_IntOrString",
+          "javaType": "io.fabric8.kubernetes.api.model.IntOrString"
         },
         "items": {
           "type": "array",
